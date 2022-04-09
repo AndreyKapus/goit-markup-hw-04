@@ -55,6 +55,7 @@ html {
 }
 
 /* ------------------------logo------------------- */
+
 .header {
   border: 1px solid #ECECEC;
 }
@@ -96,7 +97,7 @@ html {
 }
 
 .main-nav {
-  display: flex;'
+  display: flex;
 }
 
 .site-nav-link {
