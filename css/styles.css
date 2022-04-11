@@ -163,7 +163,10 @@ html {
 /* Hero */
 
 .hero {
-  background-color: var(--accent-background-color);
+  background-color: #C4C4C4;
+  
+  background-image: url(../images/hero-background.jpg);
+ 
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
@@ -355,7 +358,7 @@ margin-right: 30px;
   font-size: 16px;
   line-height: 1.18;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
 }
 
 .team-pct {
@@ -366,6 +369,62 @@ margin-right: 30px;
   background-color: var(--hero-title-color);
 
   padding-bottom: 30px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+
+}
+
+.team-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+
+
+}
+
+.social-icon:hover {
+ fill: #ffffff;
+ align-items: center;
+ justify-content: center;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.social-link {
+text-decoration: none;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+}
+
+.social-link:hover {
+  background-color: var(--accent-color);
+
+  width: 44px;
+  height: 44px;
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 /*---------------- Футер -------------*/
