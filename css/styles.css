@@ -198,6 +198,10 @@ html {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+
+  width: 1600px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -289,14 +293,21 @@ html {
 }
 
 .icon-bgr {
+  width: 270px;
+  height: 120px;
   background-color: #F5F4FA;
-  text-align: center;
 
   margin-bottom: 30px;
 
   border-radius: 4px;
-
 }
+
+.icon-bgr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*----------- чем мы занимаемся ---------------*/
 
@@ -343,6 +354,13 @@ html {
   margin-right: 0px;
 }
 
+.feature-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
 /* --------------наша команда---------------- */
 
 .team-title {
@@ -382,6 +400,12 @@ margin-right: 30px;
 
 .team-subtitle {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-subtitle {
@@ -418,11 +442,6 @@ margin-right: 30px;
 margin-left: 10px;
 }
 
-/* .team-soc-link:hover,
-.team-soc-link:focus {
-  background-color: var(--accent-color);
-} */
-
 .team-soc-link {
   width: 44px;
   height: 44px;
@@ -433,10 +452,6 @@ margin-left: 10px;
   color: #AFB1B8;
 }
 
-.team-soc-icon {
-  width: 20px;
-  height: 20px;
-}
 
 .team-soc-icon {
   fill:currentColor;
@@ -508,7 +523,8 @@ border-radius: 4px;
 }
 
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   border-color: var(--accent-color);
   color:var(--accent-color);
 }
@@ -541,6 +557,7 @@ border-radius: 4px;
 .footer-list {
   margin-top: 0px;
   margin-bottom: 0px;
+  list-style: none;
 }
 
 .adress {
@@ -579,7 +596,7 @@ border-radius: 4px;
   display: inline-block;
 }
 
-.footer .mail {
+.footer-mail {
   margin-bottom: 9px;
 }
 
