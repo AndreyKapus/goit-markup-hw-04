@@ -5,6 +5,10 @@
   --hero-title-color: #ffffff;
   --accent-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
+  --link-color:rgba(255, 255, 255, 0.6);
+  --header-border-color:#ECECEC;
+  --svg-color:#AFB1B8;
+  --card-border-color: #EEEEEE;
 }
 
 html {
@@ -57,7 +61,7 @@ html {
 /* ------------------------logo------------------- */
 
 .header {
-  border: 1px solid #ECECEC;
+  border: 1px solid var(--header-border-color);
 }
 
 .logo {
@@ -141,7 +145,7 @@ html {
   display: flex;
   list-style: none;
   align-items: center;
-  fill:#757575;
+  fill: var(--primary-text-color);
   
   margin-top: 0px;
   margin-bottom: 0px;
@@ -192,14 +196,14 @@ html {
     rgba(47, 48, 58, 0.4)
   ),
   url(../images/hero-background.jpg);
+
+  max-width: 1600px;
   
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0 auto;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
 
-  width: 1600px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -295,7 +299,7 @@ html {
 .icon-bgr {
   width: 270px;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: var(--secondary-background-color);
 
   margin-bottom: 30px;
 
@@ -449,7 +453,7 @@ margin-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #AFB1B8;
+  color: var(--svg-color);
 }
 
 
@@ -513,8 +517,8 @@ height: 92px;
 left: 215px;
 top: 2493px;
 
-color: #AFB1B8;
-border: 1px solid #AFB1B8;
+color: var(--svg-color);
+border: 1px solid var(--svg-color);
 border-radius: 4px;
 }
 
@@ -558,6 +562,7 @@ border-radius: 4px;
   margin-top: 0px;
   margin-bottom: 0px;
   list-style: none;
+  padding-left: 0px;
 }
 
 .adress {
@@ -585,7 +590,7 @@ border-radius: 4px;
 
 .footer .mail,
 .tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--link-color);
 
   font-style: normal;
   font-weight: 400;
@@ -786,27 +791,26 @@ margin-right: 70px;
 }
 
 .card-text-item {
-border-left: 1px solid #EEEEEE;
-border-right: 1px solid #EEEEEE;
-border-bottom: 1px solid #EEEEEE;
+border-left: 1px solid var(--card-border-color);
+border-right: 1px solid var(--card-border-color);
+border-bottom: 1px solid var(--card-border-color);
 
 padding-top: 20px;
 padding-bottom: 20px;
 padding-left: 24px;
 }
 
-.card-item:hover,
-.card-item:focus {
-background: #FFFFFF;
-box-sizing: border-box;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-0px 4px 4px rgba(0, 0, 0, 0.06),
-1px 4px 6px rgba(0, 0, 0, 0.16);
-
-  text-decoration: none;
-}
-
 .card-link {
   list-style: none;
   text-decoration: none;
+  display: block;
+}
+
+.card-link:hover,
+.card-link:focus {
+  background: var(--hero-title-color);
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
