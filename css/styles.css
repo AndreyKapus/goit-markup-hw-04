@@ -93,6 +93,9 @@ html {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -171,6 +174,9 @@ html {
 
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-contacts .mail:hover,
@@ -482,6 +488,9 @@ margin-left: 10px;
   align-items: center;
   justify-content: center;
   color: var(--svg-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -548,6 +557,9 @@ top: 2493px;
 color: var(--svg-color);
 border: 1px solid var(--svg-color);
 border-radius: 4px;
+
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .company {
@@ -606,16 +618,6 @@ border-radius: 4px;
   margin-bottom: 9px;
 }
 
-.footer .mail:hover,
-.footer .mail:focus {
-  color: var(--accent-color);
-}
-
-.footer .tel:hover,
-.footer .tel:focus {
-  color: var(--accent-color);
-}
-
 .footer .mail,
 .tel {
   color: var(--link-color);
@@ -627,6 +629,19 @@ border-radius: 4px;
   line-height: 1.17;
 
   display: inline-block;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .mail:hover,
+.footer .mail:focus {
+  color: var(--accent-color);
+}
+
+.footer .tel:hover,
+.footer .tel:focus {
+  color: var(--accent-color);
 }
 
 .footer-mail {
@@ -669,7 +684,10 @@ border-radius: 4px;
     justify-content: center;
     cursor: pointer;
 
-    background-color: rgba(255, 255, 255, 0.1);;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-link:hover,
@@ -717,7 +735,8 @@ margin-right: 70px;
   margin-bottom: 50px;
   padding-left: 0px;
   padding-right: 0px;
-}
+  }
+
 
 .portfolio-button-list:not(:last-child) {
   margin-right: 8px;
@@ -740,6 +759,9 @@ margin-right: 70px;
   padding-bottom: 6px;
 
   border: none;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -832,6 +854,9 @@ padding-left: 24px;
   list-style: none;
   text-decoration: none;
   display: block;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-link:hover,
