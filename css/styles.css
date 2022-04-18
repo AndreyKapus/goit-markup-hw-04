@@ -94,6 +94,7 @@ html {
     padding-top: 32px;
     padding-bottom: 32px;
 
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -175,6 +176,7 @@ html {
   padding-top: 32px;
   padding-bottom: 32px;
 
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -489,6 +491,7 @@ margin-left: 10px;
   justify-content: center;
   color: var(--svg-color);
 
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -558,6 +561,7 @@ color: var(--svg-color);
 border: 1px solid var(--svg-color);
 border-radius: 4px;
 
+transition-property: border, color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -630,6 +634,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   display: inline-block;
 
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -686,6 +691,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     background-color: rgba(255, 255, 255, 0.1);
 
+    transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -760,6 +766,7 @@ margin-right: 70px;
 
   border: none;
 
+  transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -855,6 +862,7 @@ padding-left: 24px;
   text-decoration: none;
   display: block;
 
+  transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
